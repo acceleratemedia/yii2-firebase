@@ -79,6 +79,5 @@ class Messaging extends BaseObject
 			'data' => $messageConfig['data']
 		]);
 		$sendReport = $this->messaging->sendMulticast($message, $tokens);
-		Yii::info(print_r($sendReport,true));
 	}
 }
