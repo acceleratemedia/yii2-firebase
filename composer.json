@@ -3,7 +3,7 @@
     "description": "Extension for talking with Firebase servers using PHP and the Yii 2 Framework",
     "type": "yii2-extension",
     "require": {
-        "brianvb/yii2-singleton": "@dev",
+        "brianvb/yii2-utilities": "@dev",
         "yiisoft/yii2": "^2.0",
         "kreait/firebase-php": "^4.18"
     },
@@ -21,14 +21,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "path",
-            "url": "./../yii2-singleton",
-            "options": {
-                "symlink": true
-            }
+            "url": "https://repos.open-your-mind.info/"
         }
     ]
 }

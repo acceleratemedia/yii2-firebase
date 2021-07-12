@@ -2,18 +2,17 @@
 
 namespace bvb\firebase\messaging;
 
-use bvb\singleton\Singleton;
 use Kreait\Firebase\Factory;
 use Kreait\Firebase\ServiceAccount;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Yii;
-use yii\base\BaseObject;
 use yii\base\InvalidConfigException;
+use yiiutils\Singleton;
 
 /**
  * Messaging is a helper class that
  */
-class Messaging extends BaseObject
+class Messaging extends \yii\base\BaseObject
 {
 	/**
 	 * Implement the Singleton functionality using Yii's container
