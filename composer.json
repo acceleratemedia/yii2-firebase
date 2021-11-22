@@ -1,5 +1,5 @@
 {
-    "name": "brianvb/yii2-firebase",
+    "name": "acceleratemedia/yii2-firebase",
     "description": "Extension for talking with Firebase servers using PHP and the Yii 2 Framework",
     "type": "yii2-extension",
     "require": {
