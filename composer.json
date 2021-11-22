@@ -3,7 +3,7 @@
     "description": "Extension for talking with Firebase servers using PHP and the Yii 2 Framework",
     "type": "yii2-extension",
     "require": {
-        "brianvb/yii2-utilities": "@dev",
+        "acceleratemedia/yii2-utilities": "@dev",
         "yiisoft/yii2": "^2.0",
         "kreait/firebase-php": "^4.18"
     },
