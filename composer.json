@@ -17,11 +17,5 @@
         "psr-4": {
             "bvb\\firebase\\": "src"
         }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repos.open-your-mind.info/"
-        }
-    ]
+    }
 }
